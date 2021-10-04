@@ -13,8 +13,8 @@ RUN /install-plugins.sh \
 # Revert to the original non-root user
 USER 1001
 
-LABEL "org.opencontainers.image.documentation"="https://docs.osism.de" \
+LABEL "org.opencontainers.image.documentation"="https://docs.osism.tech" \
       "org.opencontainers.image.licenses"="ASL 2.0" \
       "org.opencontainers.image.source"="https://github.com/osism/container-image-jenkins" \
-      "org.opencontainers.image.url"="https://www.osism.de" \
-      "org.opencontainers.image.vendor"="Betacloud Solutions GmbH"
+      "org.opencontainers.image.url"="https://www.osism.tech" \
+      "org.opencontainers.image.vendor"="OSISM GmbH"
